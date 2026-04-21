@@ -1,0 +1,10 @@
+{
+  "name": "p5-profile-website-and-blog",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  }
+}

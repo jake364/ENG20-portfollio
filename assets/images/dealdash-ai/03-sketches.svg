@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">DealDash AI screenshot placeholder 3</title>
+  <desc id="desc">Placeholder image for the third screenshot in the DealDash AI case study.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f5ecdf"/>
+      <stop offset="100%" stop-color="#e2cfb8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <path d="M180 650 C 420 420, 620 760, 900 430 S 1320 540, 1440 240" fill="none" stroke="#8d6d52" stroke-width="18" opacity="0.4"/>
+  <text x="800" y="420" text-anchor="middle" font-family="Georgia, serif" font-size="210" font-weight="700" fill="#2a3440">3</text>
+  <text x="800" y="540" text-anchor="middle" font-family="system-ui, sans-serif" font-size="42" fill="#4d5a67">Sketches screenshot placeholder</text>
+</svg>

@@ -1,0 +1,251 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DealDash AI | Case Study</title>
+  <meta name="description" content="Chronological UX case study for DealDash AI." />
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+  <script src="/assets/js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/" aria-label="Go to home page">
+        <strong>Jake Christianson</strong>
+        <span>Human-Centered Design and Development</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>Menu</button>
+      <nav id="site-nav" class="nav-links" data-nav-menu>
+        <a href="/bio.html">Bio</a>
+        <div class="nav-group">
+          <a class="nav-trigger" href="/blog.html">Blog Posts</a>
+          <div class="nav-dropdown">
+            <a href="/blog-1.html">Post 1</a>
+            <a href="/blog-2.html">Post 2</a>
+            <a href="/blog-3.html">Post 3</a>
+          </div>
+        </div>
+        <div class="nav-group">
+          <a class="nav-trigger" href="/projects.html" aria-current="page">Projects</a>
+          <div class="nav-dropdown">
+            <a href="/dealdash-ai.html">DealDash AI</a>
+            <a href="/roomeo.html">Roomeo</a>
+            <a href="/gameflix.html">GameFlix</a>
+
+          </div>
+        </div>
+        <a href="/resume.html">Resume</a>
+        <a href="/internships.html">Internships</a>
+        <a href="/social.html">Social Links</a>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false">Night Mode</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page site-shell">
+    <section class="section">
+      <div class="section-inner">
+        <div class="project-layout">
+          <aside class="project-sidebar">
+            <section class="sidebar-panel">
+              <h2>DealDash AI</h2>
+              <p class="sidebar-note">Case study files and quick links. Use these to jump to sections or open the related assets.</p>
+            </section>
+
+            <section class="sidebar-panel">
+              <h3>Report</h3>
+              <ul class="sidebar-list">
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#problem">Problem Identification</a></li>
+                <li><a href="#research">User Research</a></li>
+                <li><a href="#goals">Design Goals</a></li>
+                <li><a href="#ideation">Initial Ideation</a></li>
+                <li><a href="#wireframes">Wireframing</a></li>
+                <li><a href="#prototype">Prototype Development</a></li>
+                <li><a href="#principles">UX Principles</a></li>
+                <li><a href="#iteration">Iteration and Feedback</a></li>
+                <li><a href="#logic">Core Logic</a></li>
+                <li><a href="#future">Future Work</a></li>
+                <li><a href="#conclusion">Conclusion</a></li>
+              </ul>
+            </section>
+
+            <section class="sidebar-panel">
+              <h3>Download Files</h3>
+              <ul class="sidebar-list">
+                <li><a href="https://www.figma.com/make/LII9xjXq4mRb7zIdH7eSae/DealDash-AI-prototype?fullscreen=1&t=3qn4ttZ9OD96c2py-1" target="_blank" rel="noreferrer">Interactive Prototype (Figma)</a></li>
+                <li><a href="/assets/files/dealdash-ai/initial-concept-presentation.pdf" target="_blank" rel="noreferrer">Initial Concept Presentation</a></li>
+                <li><a href="/assets/files/dealdash-ai/preliminary-project-report.pdf" target="_blank" rel="noreferrer">Preliminary Project Report</a></li>
+                <li><a href="/assets/files/dealdash-ai/survey-questions.pdf" target="_blank" rel="noreferrer">Survey Questions</a></li>
+                <li><a href="/assets/files/dealdash-ai/interview-transcript-1.pdf" target="_blank" rel="noreferrer">Interview Transcript 1</a></li>
+                <li><a href="/assets/files/dealdash-ai/interview-transcript-2.pdf" target="_blank" rel="noreferrer">Interview Transcript 2</a></li>
+                <li><a href="/assets/files/dealdash-ai/research-interview-findings.xlsx" target="_blank" rel="noreferrer">Research &amp; Interview Findings</a></li>
+                <li><a href="/assets/images/dealdash-ai/design-process-documentation.png" target="_blank" rel="noreferrer">Design Process Documentation</a></li>
+                <li><a href="/assets/files/dealdash-ai/final-case-study-presentation.pdf" target="_blank" rel="noreferrer">Final Case Study Presentation</a></li>
+              </ul>
+            </section>
+          </aside>
+
+          <article class="project-content post">
+            <h1 class="page-title page-title-small">DealDash AI</h1>
+            <p class="intro">DealDash AI is a user-centered concept for a mobile application that helps people discover, compare, and act on food deals more efficiently. The project follows a chronological design process, moving from problem discovery to research, ideation, prototyping, iteration, and future planning.</p>
+
+            <section class="case-section" id="introduction">
+              <h2>Introduction</h2>
+              <div class="intro-wrap">
+                <div class="placeholder-shot intro-media">
+                  <img src="/assets/images/dealdash-ai/dd.ss.home.png" alt="DealDash AI home screen with active deals and navigation tabs" />
+                  <div class="placeholder-caption">Home screen from the Figma prototype. Source: <a href="https://www.figma.com/make/LII9xjXq4mRb7zIdH7eSae/DealDash-AI-prototype?fullscreen=1&t=3qn4ttZ9OD96c2py-1" target="_blank" rel="noreferrer">Figma prototype</a>.</div>
+                </div>
+                <p>DealDash AI began as a response to a simple but frustrating problem: food deals are scattered across restaurant apps, delivery platforms, and loyalty systems, which makes comparison slow and mentally exhausting.</p>
+                <p>The idea behind this project was to create a single experience that reduces friction and helps users find the best value without manually checking multiple services.</p>
+              </div>
+            </section>
+
+            <section class="case-section" id="problem">
+              <h2>Problem Identification</h2>
+              <p>The first phase of the project focused on defining the problem clearly. Users face multiple separate platforms, each with its own rules, discounts, and reward systems. That creates decision fatigue and makes it hard to know whether a deal is actually worth taking.</p>
+              <p>The central problem statement became: <strong>Users lack a centralized, efficient way to identify the best available food deal in real time.</strong></p>
+              <p>This problem matters because deal discovery is time-sensitive. When users hesitate, the offer may disappear, the price may change, or the best option may no longer be available.</p>
+            </section>
+
+            <section class="case-section" id="research">
+              <h2>User Research and Interviews</h2>
+              <p>To validate the problem, informal interviews were conducted with people who regularly use food delivery and restaurant apps. The goal was to understand how they compare offers, what slows them down, and what they expect to see first on a deal-focused interface.</p>
+              <ul>
+                <li>Users wanted to save both time and money when ordering food.</li>
+                <li>Many participants switched between multiple applications before making a decision.</li>
+                <li>Users were frustrated by inconsistent deal visibility and unclear comparisons.</li>
+                <li>Participants preferred ranked results instead of having to hunt through several platforms.</li>
+              </ul>
+              <p>These findings confirmed that the problem was meaningful, especially for college students and budget-conscious users. The research stage also showed that the interface would need to prioritize clarity over feature overload.</p>
+              <div class="project-gallery two">
+                <div class="placeholder-shot">
+                  <img src="/assets/images/dealdash-ai/dd.ss.interviewresults.png" alt="Interview findings spreadsheet showing survey questions and responses" />
+                  <div class="placeholder-caption">Survey results and recorded interview responses. Source: <a href="/assets/files/dealdash-ai/research-interview-findings.xlsx" target="_blank" rel="noreferrer">Research &amp; Interview Findings</a>.</div>
+                </div>
+                <div class="placeholder-shot">
+                  <img src="/assets/images/dealdash-ai/dd.ss.interview2raw.png" alt="Raw interview transcript with question and answer notes" />
+                  <div class="placeholder-caption">Raw interview notes used to synthesize early findings. Source: <a href="/assets/files/dealdash-ai/interview-transcript-2.pdf" target="_blank" rel="noreferrer">Interview Transcript 2</a>.</div>
+                </div>
+              </div>
+            </section>
+
+            <section class="case-section" id="goals">
+              <h2>Design Goals</h2>
+              <p>After research, several design goals guided the rest of the work.</p>
+              <ul>
+                <li>Minimize the time required to identify the best deal.</li>
+                <li>Reduce cognitive load by presenting structured information.</li>
+                <li>Improve transparency around pricing, discounts, and savings.</li>
+                <li>Integrate with existing platforms rather than trying to replace them.</li>
+              </ul>
+              <p>These goals shaped the layout, information hierarchy, and interaction model throughout the project. They also kept the concept focused on utility instead of novelty.</p>
+            </section>
+
+            <section class="case-section" id="ideation">
+              <h2>Initial Ideation and Sketching</h2>
+              <p>Once the problem and goals were defined, the project moved into early ideation. Hand sketches were used to test layout options, navigation placement, and the order in which information should appear.</p>
+              <p>The first concepts emphasized immediate visibility of the most relevant deal. Navigation, search, and filtering were positioned for fast access so the experience would feel efficient from the first screen.</p>
+              <p>The early sketches and the first wireframe helped confirm the overall screen hierarchy, the placement of key actions, and the flow between browsing, filtering, and selecting a deal.</p>
+              <div class="project-gallery two">
+                <div class="placeholder-shot">
+                  <img src="/assets/images/dealdash-ai/dd.sketches.png" alt="Hand-drawn DealDash AI sketches showing early screen ideas and layout exploration" />
+                  <div class="placeholder-caption">Sketches used to explore the first screen directions. Source: <a href="/assets/images/dealdash-ai/dd.sketches.png" target="_blank" rel="noreferrer">Sketches file</a>.</div>
+                </div>
+                <div class="placeholder-shot">
+                  <img src="/assets/images/dealdash-ai/dd.wireframe.png" alt="Wireframe diagram showing the home flow and connected screens" />
+                  <div class="placeholder-caption">Wireframe figure showing the first structured layout direction. Source: <a href="/assets/images/dealdash-ai/dd.wireframe.png" target="_blank" rel="noreferrer">Wireframe file</a>.</div>
+                </div>
+              </div>
+            </section>
+
+            <section class="case-section" id="wireframes">
+              <h2>Wireframing and System Design</h2>
+              <p>The next step was to turn sketches into more structured wireframes. This stage helped define where deal cards, filters, and navigation should live, and it made the user journey easier to evaluate.</p>
+              <p>A system flow was also mapped to show the path from opening the app to choosing a deal and being redirected to the source platform. The intended flow is simple:</p>
+              <ol>
+                <li>The user opens the application and location is detected.</li>
+                <li>The system displays a ranked list of nearby deals.</li>
+                <li>The user refines results with filters or search.</li>
+                <li>The user selects a deal and is redirected to the appropriate platform.</li>
+              </ol>
+            </section>
+
+            <section class="case-section" id="prototype">
+              <h2>Prototype Development</h2>
+              <p>After structure and flow were established, a high-fidelity prototype was developed in Figma. The prototype simulated scrolling, filtering, and movement between screens so the experience could be tested as a realistic product concept.</p>
+              <p>Spacing, icon use, and card hierarchy were refined so that deal values could be understood quickly. Deal cards were designed to make savings visible at a glance, while filters supported more focused exploration.</p>
+              <div class="project-gallery two">
+                <div class="placeholder-shot">
+                  <img src="/assets/images/dealdash-ai/dd.ss.home.png" alt="DealDash AI home screen with active deals and navigation tabs" />
+                  <div class="placeholder-caption">Home screen showing deal browsing and navigation. Source: <a href="https://www.figma.com/make/LII9xjXq4mRb7zIdH7eSae/DealDash-AI-prototype?fullscreen=1&t=3qn4ttZ9OD96c2py-1" target="_blank" rel="noreferrer">Figma prototype</a>.</div>
+                </div>
+                <div class="placeholder-shot">
+                  <img src="/assets/images/dealdash-ai/dd.ss.deals.png" alt="Active deals screen showing a featured deal card" />
+                  <div class="placeholder-caption">Active deals view used to surface top offers quickly. Source: <a href="https://www.figma.com/make/LII9xjXq4mRb7zIdH7eSae/DealDash-AI-prototype?fullscreen=1&t=3qn4ttZ9OD96c2py-1" target="_blank" rel="noreferrer">Figma prototype</a>.</div>
+                </div>
+              </div>
+              <div class="project-gallery two" style="margin-top:1rem;">
+                <div class="placeholder-shot">
+                  <img src="/assets/images/dealdash-ai/dd.ss.rewards.png" alt="Unlockable rewards screen with points-based items" />
+                  <div class="placeholder-caption">Rewards screen showing points-based incentives. Source: <a href="https://www.figma.com/make/LII9xjXq4mRb7zIdH7eSae/DealDash-AI-prototype?fullscreen=1&t=3qn4ttZ9OD96c2py-1" target="_blank" rel="noreferrer">Figma prototype</a>.</div>
+                </div>
+                <div class="placeholder-shot">
+                  <img src="/assets/images/dealdash-ai/dd.ss.filters.png" alt="Filters screen with category, dietary, deal type, and platform options" />
+                  <div class="placeholder-caption">Filters screen used to narrow results by preference. Source: <a href="https://www.figma.com/make/LII9xjXq4mRb7zIdH7eSae/DealDash-AI-prototype?fullscreen=1&t=3qn4ttZ9OD96c2py-1" target="_blank" rel="noreferrer">Figma prototype</a>.</div>
+                </div>
+              </div>
+            </section>
+
+            <section class="case-section" id="principles">
+              <h2>UX Design Principles Applied</h2>
+              <p>Several UX principles were used to keep the concept practical and readable.</p>
+              <ul>
+                <li>Visibility of system status through clear pricing and savings labels.</li>
+                <li>Recognition over recall through icons and visual categories.</li>
+                <li>Efficiency of use by reducing the number of steps needed to decide.</li>
+                <li>Consistency across screens so the experience feels predictable.</li>
+                <li>User control and freedom through direct redirection to the source platform.</li>
+              </ul>
+            </section>
+
+            <section class="case-section" id="iteration">
+              <h2>Iterative Feedback and Presentations</h2>
+              <p>The concept was presented in stages so feedback could shape the next version. Early presentations focused on the problem and concept; later ones focused on the prototype and its usability.</p>
+              <p>Feedback pointed toward interface clarity and stronger comparison visibility. In response, spacing, card structure, and filter organization were refined to make the decision process easier to scan.</p>
+            </section>
+
+            <section class="case-section" id="logic">
+              <h2>Core System Logic</h2>
+              <p>At the logic level, the app ranks deals by estimated monetary savings, while also considering platform reward systems, popularity, and time remaining as supporting factors.</p>
+              <p>This ranking approach keeps the highest-value options at the top and helps the user trust the order of results. The logic is meant to reduce the effort required to make a decision rather than simply show every possible offer equally.</p>
+            </section>
+
+            <section class="case-section" id="future">
+              <h2>Future Work</h2>
+              <p>There are several clear directions for future development. These include personalized recommendations, expanded filtering, and more refinement of comparison features.</p>
+              <ul>
+                <li>Personalized recommendations based on user behavior.</li>
+                <li>Filters for loyalty programs and subscription benefits.</li>
+                <li>Stronger deal comparison tools.</li>
+                <li>More user testing to validate design decisions.</li>
+              </ul>
+            </section>
+
+            <section class="case-section" id="conclusion">
+              <h2>Conclusion</h2>
+              <p>DealDash AI shows how a user-centered process can address a common everyday problem with a clear and useful digital solution. The project moves chronologically from issue discovery to research, concept development, prototyping, and refinement.</p>
+              <p>For a portfolio, this matters because it shows process, judgment, and a design mindset that is grounded in real user needs rather than aesthetic alone.</p>
+            </section>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
+
+
+

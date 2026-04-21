@@ -1,0 +1,339 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Roomeo | Case Study</title>
+  <meta name="description" content="Chronological UX case study for Roomeo." />
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+  <script src="/assets/js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/" aria-label="Go to home page">
+        <strong>Jake Christianson</strong>
+        <span>Human-Centered Design and Development</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>Menu</button>
+      <nav id="site-nav" class="nav-links" data-nav-menu>
+        <a href="/bio.html">Bio</a>
+        <div class="nav-group">
+          <a class="nav-trigger" href="/blog.html">Blog Posts</a>
+          <div class="nav-dropdown">
+            <a href="/blog-1.html">Post 1</a>
+            <a href="/blog-2.html">Post 2</a>
+            <a href="/blog-3.html">Post 3</a>
+          </div>
+        </div>
+        <div class="nav-group">
+          <a class="nav-trigger" href="/projects.html" aria-current="page">Projects</a>
+          <div class="nav-dropdown">
+            <a href="/dealdash-ai.html">DealDash AI</a>
+            <a href="/roomeo.html">Roomeo</a>
+            <a href="/gameflix.html">GameFlix</a>
+          </div>
+        </div>
+        <a href="/resume.html">Resume</a>
+        <a href="/internships.html">Internships</a>
+        <a href="/social.html">Social Links</a>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false">Night Mode</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page site-shell">
+    <section class="section">
+      <div class="section-inner">
+        <div class="project-layout">
+          <aside class="project-sidebar">
+            <section class="sidebar-panel">
+              <h2>Roomeo</h2>
+              <p class="sidebar-note">One clean version of each deliverable is linked below. Exact duplicate copies of the research, information architecture, and testing files were excluded.</p>
+            </section>
+
+            <section class="sidebar-panel">
+              <h3>Report</h3>
+              <ul class="sidebar-list">
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#materials">Project Materials</a></li>
+                <li><a href="#problem">Problem</a></li>
+                <li><a href="#research">Research and Context</a></li>
+                <li><a href="#architecture">Information Architecture</a></li>
+                <li><a href="#prototype">Prototype Modification</a></li>
+                <li><a href="#testing">Usability Testing</a></li>
+                <li><a href="#findings">Findings and Iteration</a></li>
+                <li><a href="#conclusion">Conclusion</a></li>
+              </ul>
+            </section>
+
+            <section class="sidebar-panel">
+              <h3>Download Files</h3>
+              <ul class="sidebar-list">
+                <li><a href="https://www.figma.com/proto/RgGhoXK4hqOtHtwq341Hmi/Roomeo?node-id=171-446&p=f&t=91Q3UegANMMrx4Zx-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=171%3A446&show-proto-sidebar=1" target="_blank" rel="noreferrer">Interactive Prototype (Figma)</a></li>
+                <li><a href="/assets/files/roomeo/roomeo-contextual-inquiry-plan.docx" target="_blank" rel="noreferrer">Contextual Inquiry Plan</a></li>
+                <li><a href="/assets/files/roomeo/roomeo-user-research-report.pdf" target="_blank" rel="noreferrer">User Research Report</a></li>
+                <li><a href="/assets/files/roomeo/roomeo-information-architecture.pdf" target="_blank" rel="noreferrer">Information Architecture</a></li>
+                <li><a href="/assets/files/roomeo/roomeo-prototype-modification-mini-report.pdf" target="_blank" rel="noreferrer">Prototype Modification Mini Report</a></li>
+                <li><a href="/assets/files/roomeo/roomeo-usability-testing-report.pptx" target="_blank" rel="noreferrer">Usability Testing Report</a></li>
+                <li><a href="/assets/files/roomeo/roomeo-final-presentation.pdf" target="_blank" rel="noreferrer">Final Presentation</a></li>
+              </ul>
+            </section>
+          </aside>
+
+          <article class="project-content post">
+            <h1 class="page-title page-title-small">Roomeo</h1>
+            <p class="intro">Roomeo is a roommate-focused mobile concept designed to make shared living feel more organized and less reactive. The project grew through research, architecture planning, prototype refinement, and usability testing. Each stage shaped the next.</p>
+
+            <section class="case-section" id="overview">
+              <h2>Overview</h2>
+              <div class="feature-block">
+                <div class="feature-copy">
+                  <p>Shared housing creates recurring coordination problems: who owes what, who does which chore, and how to handle disagreements without turning everything into a group chat issue. Roomeo was built around that everyday friction.</p>
+                  <p>The goal was not to add another generic task app. The goal was to make one clear system for chores, rent, and communication that could support roommates who need structure but do not want extra complexity.</p>
+                </div>
+                <div class="feature-media">
+                  <div class="placeholder-shot">
+                    <img src="/assets/images/roomeo/room.ss.hero.png" alt="Roomeo hero screen showing the app landing page with the logo and slogan" />
+                    <div class="placeholder-caption">Hero screen from the Roomeo prototype. Source: <a href="https://www.figma.com/proto/RgGhoXK4hqOtHtwq341Hmi/Roomeo?node-id=171-446&p=f&t=91Q3UegANMMrx4Zx-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=171%3A446&show-proto-sidebar=1" target="_blank" rel="noreferrer">Figma prototype</a>.</div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="case-section" id="materials">
+              <h2>Project Materials</h2>
+              <p>Each deliverable captures a different part of the process, and together they show how the concept moved from early planning to a finished presentation.</p>
+              <ul>
+                <li><a href="/assets/files/roomeo/roomeo-contextual-inquiry-plan.docx" target="_blank" rel="noreferrer">Contextual Inquiry Plan</a> - Defines the target users, setting, and observation goals for the early research phase.</li>
+                <li><a href="/assets/files/roomeo/roomeo-user-research-report.pdf" target="_blank" rel="noreferrer">User Research Report</a> - Summarizes participant behavior, recurring pain points, and the need for a unified roommate tool.</li>
+                <li><a href="/assets/files/roomeo/roomeo-information-architecture.pdf" target="_blank" rel="noreferrer">Information Architecture</a> - Organizes the app around chores, rent, and communication so the structure stays simple.</li>
+                <li><a href="/assets/files/roomeo/roomeo-prototype-modification-mini-report.pdf" target="_blank" rel="noreferrer">Prototype Modification Mini Report</a> - Documents the changes made after early testing revealed unclear labels and weak feedback.</li>
+                <li><a href="/assets/files/roomeo/roomeo-usability-testing-report.pptx" target="_blank" rel="noreferrer">Usability Testing Report</a> - Presents moderated and unmoderated results, including task success patterns and improvement opportunities.</li>
+              </ul>
+            </section>
+
+            <section class="case-section" id="problem">
+              <h2>Problem</h2>
+              <p>Roommates often manage responsibilities through a mix of memory, spreadsheets, Venmo, texts, and informal agreements. That works for a while, but it becomes fragile as soon as money, timing, or expectations are unclear.</p>
+              <p>Roomeo addresses three connected problems: shared responsibilities are hard to track, financial obligations are easy to miss, and conflict is often avoided instead of resolved directly.</p>
+            </section>
+
+            <section class="case-section" id="research">
+              <h2>Research and Context</h2>
+              <p>The research phase started with a contextual inquiry plan that focused on college students and young adults living with roommates. The observation goal was simple: understand how people actually assign chores, split costs, and handle tension in shared spaces.</p>
+              <p>The early research report confirmed a pattern that kept showing up across participants. Organization matters, but communication is just as important. When those two pieces are disconnected, small issues become repeated friction.</p>
+              <div class="feature-block reverse">
+                <div class="feature-media">
+                  <div class="placeholder-shot">
+                    <img src="/assets/images/roomeo/room.ss.aeioumap.png" alt="AEIOU map with observations, findings, and themes from roommate research" />
+                    <div class="placeholder-caption">AEIOU map showing observations, themes, and key roommate behaviors. Source: <a href="/assets/images/roomeo/room.ss.aeioumap.png" target="_blank" rel="noreferrer">AEIOU map</a>.</div>
+                  </div>
+                </div>
+                <div class="feature-copy">
+                  <h3>Observation Map</h3>
+                  <p>The AEIOU map showed that roommates were using multiple disconnected systems at once. Venmo handled payments, whiteboards handled chores, and group chats handled everything else.</p>
+                  <p>The biggest theme that emerged was the gap between organization and communication. Users could stay technically organized, but the handoff between reminders, payments, and follow-through was still messy.</p>
+                </div>
+              </div>
+              <div class="feature-block">
+                <div class="feature-media small">
+                  <div class="placeholder-shot">
+                    <img src="/assets/images/roomeo/room.ss.environment.jpg" alt="Shared apartment living room with a casual but organized feel" />
+                    <div class="placeholder-caption">Small contextual image used to represent a lived-in roommate setting. Source: <a href="https://unsplash.com/photos/living-room-interior-6japTIjUQoI" target="_blank" rel="noreferrer">Unsplash</a>.</div>
+                  </div>
+                </div>
+                <div class="feature-copy">
+                  <h3>Environment</h3>
+                  <p>The observation context was an apartment environment where tasks were shared but not always formalized. That setting made it easier to see how people rely on memory, quick reminders, and informal systems when no single tool brings the workflow together.</p>
+                  <p>The small stock photo keeps this part of the page visually balanced without letting the image dominate the section.</p>
+                </div>
+              </div>
+              <ul>
+                <li>People wanted a clearer way to track chores and rent.</li>
+                <li>Participants were already using disconnected tools to stay organized.</li>
+                <li>Users avoided conflict when the system did not make expectations obvious.</li>
+                <li>There was strong interest in a single place for reminders, status, and updates.</li>
+              </ul>
+            </section>
+
+            <section class="case-section" id="architecture">
+              <h2>Information Architecture</h2>
+              <p>Once the problem was clear, the interface structure became the next focus. The architecture organized Roomeo around three main actions: view shared expenses, manage chores, and communicate about issues in a more structured way.</p>
+              <p>The information architecture work helped define how users would move between those areas without feeling lost. The layout needed to be simple enough for quick use, but still specific enough to separate chores, payments, and conflict support into distinct tasks.</p>
+              <div class="placeholder-shot">
+                <img src="/assets/images/roomeo/room.ss.ia.stock.jpg" alt="Whiteboard with sticky notes representing the information architecture stage" />
+                <div class="placeholder-caption">Planning-board stock photo used to represent the information architecture stage. Source: <a href="https://unsplash.com/photos/a-white-board-with-sticky-notes-attached-to-it-JXyY3jRV9oI" target="_blank" rel="noreferrer">Unsplash</a>.</div>
+              </div>
+            </section>
+
+            <section class="case-section" id="prototype">
+              <h2>Prototype Modification</h2>
+              <p>The prototype modification mini report focused on improving how the app responded to user expectations. A few parts of the first prototype were understandable, but some actions were too vague or did not provide enough feedback.</p>
+              <p>That stage pushed the design toward clearer labels, more obvious touch targets, and stronger confirmation states. The goal was to make interactions feel predictable instead of making users guess whether something had worked.</p>
+              <p>One key change was treating the chore flow as a primary action instead of hiding it behind vague wording. Another was making the app more explicit about where users should go next after completing a task.</p>
+              <div class="feature-block reverse">
+                <div class="feature-media">
+                  <div class="placeholder-shot">
+                    <img src="/assets/images/roomeo/room.ss.sketch.png" alt="Hand-drawn Roomeo profile sketch with tabs and roommate list" />
+                    <div class="placeholder-caption">Early sketch showing the profile and navigation structure. Source: <a href="/assets/images/roomeo/room.ss.sketch.png" target="_blank" rel="noreferrer">Sketch file</a>.</div>
+                  </div>
+                </div>
+                <div class="feature-copy">
+                  <h3>Sketch</h3>
+                  <p>The sketch shows how the first screen ideas were organized before the interface became more polished. It captures the early structure of the profile page, room list, and bottom navigation.</p>
+                  <p>Using the sketch in the report connects the first rough idea to the more refined prototype screens that came later.</p>
+                </div>
+              </div>
+              <div class="feature-block">
+                <div class="feature-media">
+                  <div class="placeholder-shot">
+                    <img src="/assets/images/roomeo/room.ss.home.png" alt="Roomeo home screen showing task progress, chores, and payments" />
+                    <div class="placeholder-caption">Home screen used to show the main monthly dashboard. Source: <a href="https://www.figma.com/proto/RgGhoXK4hqOtHtwq341Hmi/Roomeo?node-id=171-446&p=f&t=91Q3UegANMMrx4Zx-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=171%3A446&show-proto-sidebar=1" target="_blank" rel="noreferrer">Figma prototype</a>.</div>
+                  </div>
+                </div>
+                <div class="feature-copy">
+                  <h3>Home</h3>
+                  <p>The home screen combines the month summary, today's chores, and payment prompts into one place. That layout helps the user understand the current state of the apartment without digging through separate tabs.</p>
+                  <p>For the project, this screen sets the baseline for the rest of the experience. If the home page is clear, the rest of the system feels easier to trust.</p>
+                </div>
+              </div>
+              <div class="feature-block reverse">
+                <div class="feature-media">
+                  <div class="placeholder-shot">
+                    <img src="/assets/images/roomeo/room.ss.profile.png" alt="Roomeo profile screen showing fairness score and roommate balance" />
+                    <div class="placeholder-caption">Profile screen focused on fairness and roommate balance. Source: <a href="https://www.figma.com/proto/RgGhoXK4hqOtHtwq341Hmi/Roomeo?node-id=171-446&p=f&t=91Q3UegANMMrx4Zx-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=171%3A446&show-proto-sidebar=1" target="_blank" rel="noreferrer">Figma prototype</a>.</div>
+                  </div>
+                </div>
+                <div class="feature-copy">
+                  <h3>Profile</h3>
+                  <p>The profile view shows the fairness score and roommate summary in a simple, readable format. It gives the user a quick sense of how responsibilities are being shared without making the screen feel overloaded.</p>
+                  <p>That kind of visibility supports one of the app's main goals: make the current social and practical state easy to read before frustration builds up.</p>
+                </div>
+              </div>
+              <div class="feature-block">
+                <div class="feature-media">
+                  <div class="placeholder-shot">
+                    <img src="/assets/images/roomeo/room.ss.payment.png" alt="Roomeo payment screen showing rent, Wi-Fi, and electric split among roommates" />
+                    <div class="placeholder-caption">Payments screen used for rent and utility splits. Source: <a href="https://www.figma.com/proto/RgGhoXK4hqOtHtwq341Hmi/Roomeo?node-id=171-446&p=f&t=91Q3UegANMMrx4Zx-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=171%3A446&show-proto-sidebar=1" target="_blank" rel="noreferrer">Figma prototype</a>.</div>
+                  </div>
+                </div>
+                <div class="feature-copy">
+                  <h3>Payments</h3>
+                  <p>The payments screen breaks shared bills into clear parts so each roommate can see what they owe. This section matters because rent and utilities are one of the fastest ways roommates lose track of shared responsibilities.</p>
+                  <p>The design keeps the amounts obvious and uses consistent grouping so the user does not need to recalculate the split every time they check the page.</p>
+                </div>
+              </div>
+              <div class="feature-block reverse">
+                <div class="feature-media">
+                  <div class="placeholder-shot">
+                    <img src="/assets/images/roomeo/room.ss.chores.png" alt="Roomeo chore wheel showing task distribution and chore list" />
+                    <div class="placeholder-caption">Chore wheel screen for distributing and rotating chores. Source: <a href="https://www.figma.com/proto/RgGhoXK4hqOtHtwq341Hmi/Roomeo?node-id=171-446&p=f&t=91Q3UegANMMrx4Zx-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=171%3A446&show-proto-sidebar=1" target="_blank" rel="noreferrer">Figma prototype</a>.</div>
+                  </div>
+                </div>
+                <div class="feature-copy">
+                  <h3>Chores</h3>
+                  <p>The chore wheel translates a recurring household problem into a visible system. Instead of relying on memory or repeated reminders, the app shows who is responsible and when tasks are due.</p>
+                  <p>This screen is one of the most practical parts of Roomeo because it turns routine tasks into something that can be tracked, rotated, and reviewed.</p>
+                </div>
+              </div>
+              <div class="feature-block">
+                <div class="feature-media">
+                  <div class="placeholder-shot">
+                    <img src="/assets/images/roomeo/room.ss.stats.png" alt="Roomeo monthly summary screen showing task distribution and streaks" />
+                    <div class="placeholder-caption">Monthly summary screen used to show task balance over time. Source: <a href="https://www.figma.com/proto/RgGhoXK4hqOtHtwq341Hmi/Roomeo?node-id=171-446&p=f&t=91Q3UegANMMrx4Zx-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=171%3A446&show-proto-sidebar=1" target="_blank" rel="noreferrer">Figma prototype</a>.</div>
+                  </div>
+                </div>
+                <div class="feature-copy">
+                  <h3>Stats</h3>
+                  <p>The stats screen gives a monthly view of task distribution and streaks. It is useful because it adds a longer-term perspective to what would otherwise feel like isolated daily chores.</p>
+                  <p>That framing helps make fairness visible over time instead of only in the moment, which is important for roommate trust.</p>
+                </div>
+              </div>
+              <div class="feature-block reverse">
+                <div class="feature-media">
+                  <div class="placeholder-shot">
+                    <img src="/assets/images/roomeo/room.ss.ai.png" alt="Roomeo AI messaging screen with suggestions and drafted message support" />
+                    <div class="placeholder-caption">AI messaging screen for support and conflict resolution. Source: <a href="https://www.figma.com/proto/RgGhoXK4hqOtHtwq341Hmi/Roomeo?node-id=171-446&p=f&t=91Q3UegANMMrx4Zx-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=171%3A446&show-proto-sidebar=1" target="_blank" rel="noreferrer">Figma prototype</a>.</div>
+                  </div>
+                </div>
+                <div class="feature-copy">
+                  <h3>Roomie AI</h3>
+                  <p>The AI messaging screen helps users phrase a note, draft a reminder, or handle a dispute in a calmer way. It is not there to replace communication, but to support it when someone needs help starting the conversation.</p>
+                  <p>That feature adds the clearest example of the app's broader goal: making difficult roommate interactions less awkward and more structured.</p>
+                </div>
+              </div>
+            </section>
+
+            <section class="case-section" id="testing">
+              <h2>Usability Testing</h2>
+              <p>Testing included both moderated and unmoderated sessions. The combined format made it easier to capture what users said, what they did, and where the prototype fell short without relying on a single testing method.</p>
+              <p>Across the testing materials, the strongest result was that users understood Roomeo's purpose and saw value in it. The weaker spots were more specific: unclear buttons, missing feedback, and a few labels that did not match user expectations.</p>
+              <div class="feature-block">
+                <div class="feature-media">
+                  <div class="placeholder-shot">
+                    <img src="/assets/images/roomeo/room.ss.usetr1.png" alt="Usability test notes showing task reactions and comments" />
+                    <div class="placeholder-caption">First usability test notes showing participant reactions and comments. Source: <a href="/assets/files/roomeo/roomeo-usability-testing-report.pptx" target="_blank" rel="noreferrer">Usability Testing Report</a>.</div>
+                  </div>
+                </div>
+                <div class="feature-copy">
+                  <h3>Moderated Results</h3>
+                  <p>Moderated testing showed that users were generally confident when labels were clear and the layout made the next step obvious. Participants quickly understood the main navigation and were comfortable reading the chore and payment summaries.</p>
+                  <p>The strongest positive pattern from the summary was clear navigation to the correct tab, strong icon recognition, understandable visual layout, low difficulty completing tasks, and a high completion rate.</p>
+                </div>
+              </div>
+              <div class="feature-block reverse">
+                <div class="feature-media">
+                  <div class="placeholder-shot">
+                    <img src="/assets/images/roomeo/room.ss.usetr2.png" alt="Usability test notes showing additional participant reactions and comments" />
+                    <div class="placeholder-caption">Second usability test notes showing repeated themes and open questions. Source: <a href="/assets/files/roomeo/roomeo-usability-testing-report.pptx" target="_blank" rel="noreferrer">Usability Testing Report</a>.</div>
+                  </div>
+                </div>
+                <div class="feature-copy">
+                  <h3>Unmoderated Results</h3>
+                  <p>Unmoderated sessions reinforced the same issue: the app needed stronger interaction feedback. Some users hesitated when a control looked clickable but did not clearly respond.</p>
+                  <p>The negative pattern from the summary was navigation confusion in a few tasks, unclear labeling, a feature that did not respond, inconsistent interaction, unclear icon meaning, and difficulty notifying roommates.</p>
+                </div>
+              </div>
+              <ul>
+                <li>Users quickly understood rent breakdowns and monthly summaries.</li>
+                <li>Chore status was easy to read when the layout made it visible.</li>
+                <li>Some users hesitated when an action looked interactive but did nothing.</li>
+                <li>The app needed better confirmation and stronger affordance cues.</li>
+              </ul>
+            </section>
+
+            <section class="case-section" id="findings">
+              <h2>Findings and Iteration</h2>
+              <p>The most useful findings were practical. Users liked the direction of the app, but they needed clearer navigation, better action feedback, and labels that matched what they expected to happen.</p>
+              <p>The mini report and testing deck both pointed to the same conclusion: Roomeo worked best when it reduced ambiguity. That meant making the chore flow easier to understand, clarifying icon meaning, and separating static information from interactive controls.</p>
+              <div class="feature-block">
+                <div class="feature-media">
+                  <div class="placeholder-shot">
+                    <img src="/assets/images/roomeo/room.ss.ar.png" alt="Affinity diagram showing recurring roommate themes and patterns" />
+                    <div class="placeholder-caption">Affinity diagram showing the repeated themes pulled from research. Source: <a href="/assets/images/roomeo/room.ss.ar.png" target="_blank" rel="noreferrer">Affinity diagram</a>.</div>
+                  </div>
+                </div>
+                <div class="feature-copy">
+                  <h3>Research Synthesis</h3>
+                  <p>The affinity diagram pulled the research into a small set of repeatable themes: organization, communication, payment coordination, and the frustration that appears when one of those breaks down.</p>
+                  <p>That synthesis helped shape the recommendations and made the later interface changes easier to justify in the final presentation.</p>
+                </div>
+              </div>
+            </section>
+
+            <section class="case-section" id="conclusion">
+              <h2>Conclusion</h2>
+              <p>By the end of the project, Roomeo had a clearer structure and a stronger case for why it mattered. The project showed that roommates benefit from a system that keeps responsibilities visible instead of scattered across apps and conversations.</p>
+              <p>Next steps would focus on onboarding, clearer action states, and stronger support for conflict-resolution messaging. The final presentation documents the completed direction and closes the project with a concise summary of what changed, what worked, and what should happen next.</p>
+            </section>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
+
+
+
