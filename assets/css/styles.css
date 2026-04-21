@@ -412,6 +412,10 @@ select {
   object-position: center;
 }
 
+.project-image-top {
+  object-position: center top;
+}
+
 .project-card-link {
   display: block;
   position: absolute;
