@@ -416,6 +416,16 @@ select {
   object-position: center top;
 }
 
+.internship-photo {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-height: 360px;
+  object-fit: contain;
+  object-position: center;
+  background: color-mix(in srgb, var(--bg-alt) 85%, transparent);
+}
+
 .project-card-link {
   display: block;
   position: absolute;
