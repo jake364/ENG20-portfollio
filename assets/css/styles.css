@@ -113,7 +113,7 @@ select {
   gap: 0.12rem;
   text-decoration: none;
   color: var(--text);
-  min-width: max-content;
+  min-width: 0;
 }
 
 .brand strong {
@@ -1015,10 +1015,13 @@ select {
   border: 1px solid color-mix(in srgb, var(--line) 90%, transparent);
   border-radius: 24px;
   box-shadow: 0 14px 32px rgba(18, 22, 28, 0.08);
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .resume-top {
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
   align-items: flex-start;
   justify-content: space-between;
   gap: 1rem;
@@ -1029,11 +1032,14 @@ select {
 .resume-title-block {
   display: grid;
   gap: 0.35rem;
+  min-width: 0;
 }
 
 .resume-title-block h1 {
   margin: 0;
   font-size: clamp(2rem, 4vw, 3rem);
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .resume-subtitle {
@@ -1121,6 +1127,8 @@ select {
 .resume-entry li {
   margin: 0.45rem 0 0;
   line-height: 1.7;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .resume-entry ul {
@@ -1139,7 +1147,11 @@ select {
 }
 
 .resume-meta-line span {
-  white-space: nowrap;
+  display: block;
+  min-width: 0;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .resume-download-button {
@@ -1266,7 +1278,7 @@ select {
   }
 
   .resume-top {
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
 
   .resume-skill-grid {
@@ -1275,6 +1287,10 @@ select {
 
   .resume-download {
     align-items: flex-start;
+  }
+
+  .resume-download-button {
+    width: min(100%, 260px);
   }
 }
 
@@ -1314,6 +1330,35 @@ select {
   }
 
   .contact-actions .button {
+    width: 100%;
+  }
+
+  .brand strong,
+  .brand span {
+    overflow-wrap: anywhere;
+  }
+
+  .resume-paper {
+    border-radius: 18px;
+  }
+
+  .resume-meta-line {
+    display: grid;
+    gap: 0.4rem;
+    font-size: 0.9rem;
+  }
+
+  .resume-title-block h1 {
+    font-size: clamp(1.8rem, 9vw, 2.35rem);
+  }
+
+  .resume-entry-head {
+    display: grid;
+    gap: 0.25rem;
+  }
+
+  .resume-download,
+  .resume-download-button {
     width: 100%;
   }
 }
